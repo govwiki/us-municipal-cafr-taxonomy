@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- CAFR Taxonomy Developed By Microvista Technologies Pvt Ltd - Taxonomy Creator -->
+<xsd:schema targetNamespace="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:us-cafr-roles="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/DisclosureOfGeneralInformationAboutGovernment" id="DisclosureOfGeneralInformationAboutGovernment">
+        <link:definition>1000 - Disclosure - Disclosure of general information about government</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/DisclosureOfEmployeeBenefitsPlan" id="DisclosureOfEmployeeBenefitsPlan">
+        <link:definition>1001 - Disclosure - Disclosure of employee benefits plan</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+	  
+	  <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofNetPosition" id="StatementofNetPosition">
+        <link:definition>1002 - Statement - Statement of net position</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/GovernmentalFundBalanceSheet" id="GovernmentalFundBalanceSheet">
+        <link:definition>1003 - Statement - Statement of governmental fund balance sheet</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofRevenuesExpendituresandChangesinFundBalancesGovernmentalFunds" id="StatementofRevenuesExpendituresandChangesinFundBalancesGovernmentalFunds">
+        <link:definition>1004 - Statement - Statement of revenues, expenditures, and changes in fund balances governmental funds</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofActivities" id="StatementofActivities">
+        <link:definition>1005 - Statement - Statement of activities</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofActivities1" id="StatementofActivities1">
+        <link:definition>1006 - Statement - Statement of activities 1</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualGeneralFund" id="StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualGeneralFund">
+        <link:definition>1007 - Statement - Statement of revenues expenditures and changes in fund balance budget and actual general fund</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualRevenueCommunityRedevelopmentDistricts" id="StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualRevenueCommunityRedevelopmentDistricts">
+        <link:definition>1008 - Statement - Statement of revenues expenditures and changes in fund balance budget and actual revenue community redevelopment districts</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualRevenueDowntownRedevelopmentDistrict" id="StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualRevenueDowntownRedevelopmentDistrict">
+        <link:definition>1009 - Statement - Statement of revenues expenditures and changes in fund balance budget and actual revenue downtown redevelopment district</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualGrants" id="StatementOfRevenuesExpendituresAndChangesInFundBalanceBudgetAndActualGrants">
+        <link:definition>1010 - Statement - Statement of revenues expenditures and changes in fund balance budget and actual grants</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofNetPositionProprietaryFunds" id="StatementofNetPositionProprietaryFunds">
+        <link:definition>1011 - Statement - Statement of net position proprietary funds</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofRevenuesExpensesandChangesinFundNetPosition" id="StatementofRevenuesExpensesandChangesinFundNetPosition">
+        <link:definition>1012 - Statement - Statement of revenues expensesand changesin fund net position</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofCashFlowsProprietaryFunds" id="StatementofCashFlowsProprietaryFunds">
+        <link:definition>1013 - Statement - Statement of cash flows proprietary funds</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfFiduciaryNetPositionPensionTrustFunds" id="StatementOfFiduciaryNetPositionPensionTrustFunds">
+        <link:definition>1014 - Statement - Statement of fiduciary net position pension trust funds</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfChangesInLongTermLiabilities" id="StatementOfChangesInLongTermLiabilities">
+        <link:definition>1015 - Statement - Statement of changes in long-term liabilities</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfEmployeesRetirementSystem" id="StatementOfEmployeesRetirementSystem">
+        <link:definition>1016 - Statement - Statement of employees retirement system</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfFirefighterSRetirementSystem" id="StatementOfFirefighterSRetirementSystem">
+        <link:definition>1017 - Statement - Statement of firefighter's retirement system</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfPoliceOfficerSRetirementSystem" id="StatementOfPoliceOfficerSRetirementSystem">
+        <link:definition>1018 - Statement - Statement of police officer's retirement system</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfNetPositionByComponentLastTenFiscalYears" id="StatementOfNetPositionByComponentLastTenFiscalYears">
+        <link:definition>1019 - Statement - Statement of net position by component last ten fiscal years</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfChangesInNetPositionLastTenFiscalYears" id="StatementOfChangesInNetPositionLastTenFiscalYears">
+        <link:definition>1020 - Statement - Statement of changes in net position last ten fiscal years</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfFundBalancesGovernmentalFundsLastTenFiscalYears" id="StatementOfFundBalancesGovernmentalFundsLastTenFiscalYears">
+        <link:definition>1021 - Statement - Statement of fund balances governmental funds last ten fiscal years</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfChangesInFundBalancesGovernmentalFundsOfLastTenFiscalYears" id="StatementOfChangesInFundBalancesGovernmentalFundsOfLastTenFiscalYears">
+        <link:definition>1022 - Statement - Statement of changes in fund balances governmental funds of last ten fiscal years</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfRatioOfNetGeneralBondedDebtOutstandingLastTenFiscalYears" id="StatementOfRatioOfNetGeneralBondedDebtOutstandingLastTenFiscalYears">
+        <link:definition>1023 - Statement - Statement of ratio of net general bonded debt outstanding last ten fiscal years</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfLegalDebtMarginInformationLastTenFiscalYearsAbstract" id="StatementOfLegalDebtMarginInformationLastTenFiscalYearsAbstract">
+        <link:definition>1024 - Statement - Statement of legal debt margin information last ten fiscal years abstract</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfPledgedRevenueCoverageLastFiveFiscalYears" id="StatementOfPledgedRevenueCoverageLastFiveFiscalYears">
+        <link:definition>1025 - Statement - Statement of pledged revenue coverage last five fiscal years</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfRetirementSystemInformation" id="StatementOfRetirementSystemInformation">
+        <link:definition>1026 - Statement - Statement of retirement system information</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfChangesInFiduciaryNetPositionPensionTrust" id="StatementOfChangesInFiduciaryNetPositionPensionTrust">
+        <link:definition>1027 - Statement - Statement of changes in fiduciary net position pension trust</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementofCashFlowsProprietaryFunds1" id="StatementofCashFlowsProprietaryFunds1">
+        <link:definition>1028 - Statement - Statement of cash flows proprietary funds1</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfRatioOfOutstandingDebtByTypeLastTenFiscalYears" id="StatementOfRatioOfOutstandingDebtByTypeLastTenFiscalYears">
+        <link:definition>1029 - Statement - Statement of ratio of outstanding debt by type last ten fiscal years</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfDirectAndOverlappingGovernmentalActivitiesDebt" id="StatementOfDirectAndOverlappingGovernmentalActivitiesDebt">
+        <link:definition>1030 - Statement - Statement of direct and overlapping governmental activities debt</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfNetPositionByComponentLastTenFiscalYears1" id="StatementOfNetPositionByComponentLastTenFiscalYears1">
+        <link:definition>1031 - Statement - Statement of net position by component last ten fiscal years1</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-roles/StatementOfDetailsOfTaxAbatements" id="StatementOfDetailsOfTaxAbatements">
+        <link:definition>1032 - Statement - Statement of Details of tax abatements</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>

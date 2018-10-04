@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CAFR Taxonomy Developed By Microvista Technologies Pvt Ltd - Taxonomy Creator -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+        xmlns:xbrli="http://www.xbrl.org/2003/instance-2003-12-31" 
+          xmlns:link="http://www.xbrl.org/2003/linkbase" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xmlns:us-cafr-types="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-types" 
+    targetNamespace="http://www.govwiki.info/xbrl/2018-04-30/us-cafr-types" 
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+   
+  
+</xsd:schema>
